@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding: 0;
+}
+menu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    width: 20em;
+    min-height: 100vh;
+    background-color: white;
+    color: black;
+    border:1px solid #bbacaa;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: Open Sans Regular, sans-serif;
+}
+menu ul {
+    list-style-type: none;
+}
+menu img {
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+}
+button{
+    padding: 0.7em;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #A491D2;
+    border:none;
+    color: white;
+}
+button:hover{
+    background-color: gray;
+}
+li{
+    border-bottom: 1px solid #bbacaa;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+.item1{
+    padding-left: 2rem;
+}
+.item1 img{
+    width: 2em;
+    height: 2em;
+    padding: 0.3em;
+}
+.maria{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+i{
+    color: gray;
+}
+i:hover{
+    color:black;
+}
+.item2{
+    padding: 4rem;
+    display:flex;
+    justify-content: center;
+}
+.item3{
+    gap: 1rem;
+    justify-content: center;
+}
+.item3:hover{
+    background-color: #A491D2;
+}
+.item4{
+    gap: 1rem;
+    justify-content: center;
+}
+.item4:hover{
+    background-color: #A491D2;
+}
+.item5{
+    gap: 1rem;
+    justify-content: center;
+}
+.item5:hover{
+    background-color: #A491D2;
+}
+.item6{
+    gap: 1rem;
+    justify-content: center;
+}
+.item6:hover{
+    background-color: #A491D2;
+}
+.item7{
+    gap: 1rem;
+    justify-content: center;
+}
+.item7:hover{
+    background-color: #A491D2;
+}
+.item8{
+    gap: 1rem;
+    justify-content: center;
+}
+.item8:hover{
+    background-color: #A491D2;
+}
+.item9{
+    gap: 1rem;
+    justify-content: center;
+}
+.item9:hover{
+    background-color: #A491D2;
+}
+.item10{
+    gap: 1rem;
+    justify-content: center;
+}
+.item10:hover{
+    background-color: #A491D2;
+}
+section img{
+    height: 18rem;
+    width: 18rem;
+}
+.fa-solid{
+    margin-left: 12px;
+    margin-right: -80px;
+}
+.fa-regular{
+    margin-left: 60px;
+}
+.active{
+    margin-top: 20px;
+    font-size: 9px;
+    margin-left: -45px;
+    color: gray;
+    font-family: Open Sans Regular, sans-serif;
+}
+aside{
+    font-size:12px;
+    font-weight: 80;
+}
+body{
+    display: flex;
+}
+section{
+    background-color: #E8EBE4;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: Roboto Bold, sans-serif;
+    font-size: 45px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+section p{
+    font-family: Roboto Bold, sans-serif;
+    font-size: 14px;
+    font-weight: 50;
+}
